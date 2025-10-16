@@ -1,5 +1,5 @@
-const helloBtn=document.getElementByld("helloBtn");
-const message=document.getelementbyld("message");
+const helloBtn=document.getElementById("helloBtn");
+const message=document.getelementbyId("message");
 
 helloBtn.addeventlistener("click",()=>{
     const hour=newDate().getHours();
