@@ -1,7 +1,7 @@
 const helloBtn=document.getElementById("helloBtn");
-const message=document.getelementbyId("message");
+const message=document.getElementById("message");
 
-helloBtn.addeventlistener("click",()=>{
+helloBtn.addEventListener("click",()=>{
     const hour=newDate().getHours();
     let greeting="こんにちは！";
     if (hour<12){
@@ -9,5 +9,5 @@ helloBtn.addeventlistener("click",()=>{
     }else if(hour>=18){
         greeting="こんばんは！";
     }
-    message.textcontent=`${greeting}GitHub Pages の公開に成功しました！`;
+    message.textContent=`${greeting}GitHub Pages の公開に成功しました！`;
 });
